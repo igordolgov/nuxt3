@@ -1,4 +1,6 @@
 <template lang="pug">
+head
+  title SKSAVIA - {{ product.name }}
 .product-slug.lg_container
   .block.sm_flex.pb-0.sm_p-4
     Swiper.mb-4.w-full(
@@ -13,24 +15,29 @@
       p {{ product.description }}
       p {{ product.condition }}
       p.mb-4 {{ product.price }} руб.
-      button(@click="cartStore.addItem(product)").px-6.py-4.bg-sky-600.text-white.rounded-lg.hover_bg-sky-700
+      button(@click="cartStore.addItem(product)" class="bg-[#2490C5]").px-6.py-4.text-white.rounded-lg.hover_bg-sky-600
         | Добавить в Корзину
 </template>
 
 <style lang="sass">
 .swiper-wrapper,
 .swiper
-    max-height: calc(100vh - 94px)
-
+  max-height: calc(100vh - 94px)
 .swiper-slide
-    display: flex
-    justify-content: center
-    height: auto
-    text-align: center
-
+  display: flex
+  justify-content: center
+  height: auto
+  text-align: center
 .swiper-button-prev,
 .swiper-button-next
-    color: #2490C5
+  color: #2490C5
+  font-weight: 700
+.swiper-pagination-bullet
+  height: 12px
+  width: 12px
+  margin: 0 5px !important
+  &-active
+    background: #2490C5
 </style>
 
 <script setup>

@@ -10,15 +10,17 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.7",
+    "@volar/vue-language-plugin-pug": "latest",
     "nuxt": "^3.4.3",
     "nuxt-icon": "^0.3.3",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
-    "@volar/vue-language-plugin-pug": "latest"
+    "volar-service-vetur": "latest"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.9",
     "@stripe/stripe-js": "^1.52.1",
+    "@vueuse/core": "^10.1.0",
     "nuxt-swiper": "^1.1.0",
     "pinia": "^2.0.35",
     "vite-plugin-pug": "^0.3.2"
