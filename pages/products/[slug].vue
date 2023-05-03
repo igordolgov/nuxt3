@@ -13,10 +13,13 @@ head
     div.ml-6
       h2.text-xl.font-semibold {{ product.name }}
       p {{ product.description }}
+      p(v-if="product.quantity > 0") Количество: {{ product.quantity }} шт.
+      p(v-else).text-red-500.font-semibold НЕТ В НАЛИЧИИ!
       p {{ product.condition }}
       p.mb-4 {{ product.price }} руб.
-      button(@click="cartStore.addItem(product)" class="bg-[#2490C5]").px-6.py-4.text-white.rounded-lg.hover_bg-sky-600
-        | Добавить в Корзину
+      button(v-if="product.quantity > 0"
+        @click="cartStore.addItem(product)" class="bg-[#2490C5]" :class="{ disabled: product.quantity < 1 } ").px-6.py-4.text-white.rounded-lg.hover_bg-sky-600
+        | Добавить в&nbsp;Корзину
 </template>
 
 <style lang="sass">

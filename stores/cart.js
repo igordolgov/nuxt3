@@ -52,7 +52,11 @@ const actions = {
 		this.items = this.items.filter((item) => item.name != itemName)
 	},
 	increment(item) {
-		item.amount += 1
+		if (item.amount > item.quantity - 1) {
+			alert("Всего товаров: " + item.quantity + " шт.")
+		} else {
+			item.amount += 1
+		}
 	},
 	decrement(item) {
 		if (item.amount >= 2) {

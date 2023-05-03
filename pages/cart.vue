@@ -44,7 +44,6 @@
 <style lang="sass">
 .cart-empty
   min-height: calc(100vh - 90px)
-  background-size: 192px
 </style>
 
 <script setup>

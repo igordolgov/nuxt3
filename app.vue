@@ -13,7 +13,7 @@
     //- Страницы из папки pages, вначале загружается страница index.vue:
     NuxtPage.py-3.bg-white.shadow-xl.h_screen
     //- Компонент из папки components (кнопка "Наверх страницы"):
-    ScrollToTopComponent
+  ScrollToTopComponent
 </template>
 
 <script setup>

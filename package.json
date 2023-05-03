@@ -20,7 +20,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.4.9",
     "@stripe/stripe-js": "^1.52.1",
-    "@vueuse/core": "^10.1.0",
+    "@vueuse/core": "^10.1.2",
     "nuxt-swiper": "^1.1.0",
     "pinia": "^2.0.35",
     "vite-plugin-pug": "^0.3.2"
