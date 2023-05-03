@@ -2,15 +2,15 @@
 aside.text-md.sm_text-lg
 	ul.products-list.mb-4
 		li.list-items.flex.w-48.font-normal.sm_flex-col.sm_space-y-3.sm_font-normal
-			NuxtLink(to="/MotorsPage").link.border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-3.relative
+			NuxtLink(to="/MotorsPage").link.border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-4.relative
 				| Моторы
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Моторы").length }})
 				.line.hidden.w-8.h-1.lg_h-px.bg-sky-500.absolute.-right-8.top-5.-z-50
-			NuxtLink(to="/PropellersPage").border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-3.relative
+			NuxtLink(to="/PropellersPage").border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-4.relative
 				| Пропеллеры
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Пропеллеры").length }})
 				.line.hidden.w-8.h-1.lg_h-px.bg-sky-500.absolute.-right-8.top-5.-z-50
-			NuxtLink(to="/StartersPage").border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-3.relative
+			NuxtLink(to="/StartersPage").border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-4.relative
 				| Стартеры
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Стартеры").length }})
 				.line.hidden.w-8.h-1.lg_h-px.bg-sky-500.absolute.-right-8.top-5.-z-50
