@@ -13,7 +13,7 @@ head
     div.ml-6
       h2.text-xl.font-semibold {{ product.name }}
       p {{ product.description }}
-      p(v-if="product.quantity > 0") Количество: {{ product.quantity }} шт.
+      p(v-if="product.quantity > 0") Кол-во: {{ product.quantity }} шт.
       p(v-else).text-red-500.font-semibold НЕТ В НАЛИЧИИ!
       p {{ product.condition }}
       p.mb-4 {{ product.price }} руб.
