@@ -6,5 +6,4 @@
         NuxtPage
   main.p-4
     slot
-  ScrollToTop
 </template>
