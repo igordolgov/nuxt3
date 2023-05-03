@@ -2,7 +2,7 @@
 //- Разметка по умолчанию
 .default-layout
 	.h-screen
-		TheHeader.mx-auto.p-4.lg_container
+		TheHeader
 		main.mx-auto.pb-0.lg_container
 			NuxtPage
 </template>

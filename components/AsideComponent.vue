@@ -1,6 +1,6 @@
 <template lang="pug">
 aside.text-md.sm_text-lg
-	ul.products-list.mb-4
+	ul.products-list.mb-3
 		li.list-items.flex.w-48.font-normal.sm_flex-col.sm_space-y-3.sm_font-normal
 			NuxtLink(to="/MotorsPage").link.border-2.lg_border.border-gray-700.px-3.rounded-lg.hover_bg-stone-100.py-2.mr-4.relative
 				| Моторы
