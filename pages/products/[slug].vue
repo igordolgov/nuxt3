@@ -2,7 +2,7 @@
 head
   title SKSAVIA - {{ product.name }}
 .product-slug.lg_container
-  .block.sm_flex.pb-0.sm_p-4
+  .block.sm_flex.pb-0.sm_p-4.sm_pb-0
     Swiper.mb-4.w-full(
       :modules=" [SwiperAutoplay, SwiperNavigation, SwiperPagination, SwiperKeyboard, SwiperMousewheel] ",
       :slides-per-view=" 1 ", :loop=" true ", navigation, mousewheel, :keyboard="{enabled: true,}",
@@ -16,7 +16,7 @@ head
       p(v-if="product.quantity > 0") Кол-во: {{ product.quantity }} шт.
       p(v-else).text-red-500.font-semibold НЕТ В НАЛИЧИИ!
       p {{ product.condition }}
-      p.mb-4 {{ product.price }} руб.
+      p.mb-4 {{ product.price }} &#8381;
       button(v-if="product.quantity > 0"
         @click="cartStore.addItem(product)" class="bg-[#2490C5]" :class="{ disabled: product.quantity < 1 } ").px-6.py-4.text-white.rounded-lg.hover_bg-sky-600
         | Добавить в&nbsp;Корзину
