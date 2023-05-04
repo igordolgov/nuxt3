@@ -7,11 +7,11 @@
   см. документацию на https://tailwindcss.com/ или на https://tailwindcss.ru/
 
 //- Начальный файл приложения
-.main
+.main.bg-neutral-200
   //- Шаблон разметки (из папки layouts, по умолчанию default.vue):
   NuxtLayout
     //- Страницы из папки pages, вначале загружается страница index.vue:
-    NuxtPage.py-3.bg-white.shadow-xl.h_screen
+    NuxtPage.bg-white
     //- Компонент из папки components (кнопка "Наверх страницы"):
   ScrollToTopComponent
 </template>
