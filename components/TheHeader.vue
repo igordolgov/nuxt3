@@ -1,5 +1,5 @@
 <template lang="pug">
-header.flex.items-center.text-white.text-lg.sticky.z-50.inset-x-0.top-0.h-14(class="bg-[#2490C5]")
+header.flex.items-center.text-white.text-lg.h-14(class="bg-[#2490C5]")
 	.container.mx-auto.lg_px-4
 		nav.flex.items-center.justify-between
 			NuxtLink(to="/").flex.items-center
@@ -18,5 +18,5 @@ header.flex.items-center.text-white.text-lg.sticky.z-50.inset-x-0.top-0.h-14(cla
 .nav_link
   text-align: center
   &:hover
-    background-color: #2183b1
+    background-color: #1e78a4
 </style>
