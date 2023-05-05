@@ -16,8 +16,8 @@
   ScrollToTopComponent
 </template>
 
-<script setup>
-import { useProductStore } from '~/stores/products'
+<script lang="ts" setup>
+import {useProductStore} from '~/stores/products'
 const productStore = useProductStore()
 productStore.fill()
 </script>

@@ -9,13 +9,8 @@
         PreviewComponent(:product="product")
 </template>
 
-<style lang="sass" scoped>
-// .page
-// 	height: calc(100vh - 56px)
-</style>
-
 <script setup>
-import { useProductStore } from '~/stores/products'
+import {useProductStore} from '~/stores/products'
 const productStore = useProductStore()
 const products = productStore.products
 productStore.fill()

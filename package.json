@@ -18,6 +18,7 @@
     "volar-service-vetur": "latest"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
     "@pinia/nuxt": "^0.4.9",
     "@stripe/stripe-js": "^1.52.1",
     "@vueuse/core": "^10.1.2",

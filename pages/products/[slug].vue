@@ -43,8 +43,8 @@ head
 </style>
 
 <script setup>
-import { useProductStore } from '~~/stores/products'
-import { useCartStore } from '~~/stores/cart'
+import {useProductStore} from '~~/stores/products'
+import {useCartStore} from '~~/stores/cart'
 const productStore = useProductStore()
 const cartStore = useCartStore()
 const route = useRoute()
