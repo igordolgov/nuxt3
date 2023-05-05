@@ -3,11 +3,11 @@
 .default-layout
 	.h-screen
 		TheHeader
-		main.mx-auto.pb-0.lg_container.bg-white
+		main.mx-auto.lg_container.bg-white.lg_border-x.border-gray-400.shadow-xl.shadow-gray-400
 			NuxtPage
 </template>
 
 <style lang="sass" scoped>
 main
-	height: calc(100vh - 56px)
+	min-height: calc(100% - 56px)
 </style>

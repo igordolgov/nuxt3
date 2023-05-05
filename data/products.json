@@ -131,6 +131,7 @@
         "id": 5,
         "category": "Пропеллеры",
         "name": "APC 7x8",
+        "condition": "Новый",
         "price": 170,
         "quantity": 1,
         "image": "propeller2-01.jpg",

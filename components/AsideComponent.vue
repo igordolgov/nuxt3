@@ -2,7 +2,7 @@
 aside.text-md.sm_text-lg
 	ul.products-list.mb-3
 		li.list-items.flex.w-48.font-normal.sm_flex-col.sm_space-y-3.sm_font-normal
-			NuxtLink(to="/MotorsPage").link.border-2.lg_border.border-black.px-3.rounded-lg.hover_shadow-md.py-2.mr-4.relative
+			NuxtLink(to="/MotorsPage").border-2.lg_border.border-black.px-3.rounded-lg.hover_shadow-md.py-2.mr-4.relative
 				| Моторы
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Моторы").length }})
 				.line.hidden.w-4.h-1.lg_h-px.bg-sky-500.absolute.-right-4.top-5
