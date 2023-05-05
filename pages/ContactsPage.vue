@@ -1,8 +1,8 @@
 <template lang="pug">
 head
   title SKSAVIA - Контакты
-.news-page
-  .mx-auto.px-4.lg_container
+.news-page.px-4
+  .mx-auto.lg_container
     h1.text-lg.font-bold.pt-2 Наши контакты:
     p Кабардино-Балкарская Республика, г.Нарткала, ул.Кабардинская, д.62
     p Пн-Пт: 10:00-18:00

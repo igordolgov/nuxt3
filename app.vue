@@ -7,7 +7,7 @@
   см. документацию на https://tailwindcss.com/ или на https://tailwindcss.ru/
 
 //- Начальный файл приложения
-.main.bg-neutral-300
+.main.bg-gradient-to-b.from-neutral-300
   //- Шаблон разметки (из папки layouts, по умолчанию default.vue):
   NuxtLayout
     //- Страницы из папки pages, вначале загружается страница index.vue:

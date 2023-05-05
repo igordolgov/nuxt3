@@ -38,7 +38,7 @@
         .flex.justify-between
           .summary.font-bold Итого:
           span.font-bold {{cartStore.total}} &#8381;
-    .cart-empty(v-else="").text-center.my-auto.text-5xl.text-stone-500.font-bold.grid.place-items-center Корзина пуста
+    .cart-empty(v-else="").text-center.my-auto.text-4xl.text-stone-300.font-bold.grid.place-items-center Корзина пуста
 </template>
 
 <style lang="sass">
