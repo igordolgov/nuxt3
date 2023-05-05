@@ -4,12 +4,13 @@
     title SKSAVIA - Корзина
   .container-lg.sm_px-4
     .cart-full.mx-auto.bg-white(v-if="!cartStore.isEmpty" class="md_w-3/4 lg_w-2/4")
-      h1.my-3.text-xl.text-center.font-semibold
+      h1.py-3.text-xl.text-center.font-semibold
         | Корзина
       .bg-neutral-200.font-semibold.border-t.border-stone-400.px-3.py-1.sm_px-4
-        .flex.justify-between.items-center.text-sm
-          .description(class="min-w-[190px] md_min-w-[250px]")
-            h2.md_text-lg Название / Цена
+        .flex.justify-between.items-center.text-md
+          .description(class="min-w-[190px] sm_min-w-[210px] md_min-w-[250px]")
+            h2 Название
+              span.text-sm.font-normal &nbsp;/ Цена
           span Кол-во
           span.pr-3 Сумма
           .flex-none.mt-2
@@ -17,9 +18,9 @@
         v-for="item in cartStore.items" :key="item.id")
         .flex.justify-between.items-center.text-sm
           img.hidden.object-contain(class="h-[80px] w-[80px]" :src="item.images[0].src")
-          .description(class="min-w-[190px] md_min-w-[250px]")
-            h2.md_text-lg {{item.name}}
-            span.font-light {{item.price}} &#8381;
+          .description(class="min-w-[190px] sm_min-w-[210px] md_min-w-[250px]")
+            h2.md_text-md.font-semibold {{item.name}}&nbsp;
+              span.font-light.block.sm_inline / {{item.price}} &#8381;
           .flex.m-0
             button(@click="cartStore.decrement(item)" class="pb-[2px]").px-2.m-0.border-r-0.border-gray-200
               | -

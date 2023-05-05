@@ -1,15 +1,15 @@
 <template lang="pug">
 head
   title SKSAVIA - {{ product.name }}
-.product-slug.lg_container
+.product-slug
   .block.sm_flex.my-0.sm_pr-4
     Swiper.mb-0.w-full(
-      :modules=" [SwiperAutoplay, SwiperNavigation, SwiperPagination, SwiperKeyboard, SwiperMousewheel] ",
-      :slides-per-view=" 1 ", :loop=" true ", navigation, mousewheel, :keyboard="{enabled: true,}",
+      :modules=" [SwiperAutoplay, SwiperNavigation, SwiperEffectFade, SwiperPagination, SwiperKeyboard, SwiperMousewheel] ",
+      :slides-per-view=" 1 ", :effect="'fade'", :loop=" true ", navigation, mousewheel, :keyboard="{enabled: true,}",
       :pagination=" { clickable: true } ", :autoplay=" { delay: 8000, disableOnInteraction: true } ")
       SwiperSlide.swiper-slide.flex.justify-center.object-contain.bg-stone-200.aspect-square(
         v-for="item in product.images", :key="item.id")
-        img(:src="item.src").object-contain.select-none
+        img(:src="item.src").object-contain.select-none.w-auto
     div.ml-4.mt-2
       h2.text-xl.font-semibold {{ product.name }}
       p {{ product.description }}
@@ -18,7 +18,7 @@ head
       p {{ product.condition }}
       p.mb-4 {{ product.price }} &#8381;
       button(v-if="product.quantity > 0"
-        @click.once="cartStore.addItem(product)" class="bg-[#2490C5]").px-6.py-4.text-white.rounded-lg.hover_bg-sky-600
+        @click.once="cartStore.addItem(product)" class="bg-[#2490C5]").px-4.py-4.text-white.rounded-lg.hover_bg-sky-600
         | Добавить в&nbsp;Корзину
 </template>
 
@@ -29,7 +29,6 @@ head
 .swiper-slide
   display: flex
   justify-content: center
-  height: auto
   text-align: center
 .swiper-button-prev,
 .swiper-button-next
