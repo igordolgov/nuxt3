@@ -1,7 +1,7 @@
 <template lang="pug">
 .custom-layout
   TheHeader
-    .container.mx-auto.px-4.min-h-screen
+    .mx-auto.px-0
       .grid.grid-cols-full
         NuxtPage
   main.p-4

@@ -3,7 +3,7 @@
 .default-layout
 	.h-screen
 		TheHeader
-		main.mx-auto.lg_container.bg-white.lg_border-x.border-gray-400.shadow-xl.shadow-gray-400
+		main.mx-auto.xl_container.bg-white.lg_border-x.border-gray-400.shadow-xl.shadow-gray-400
 			NuxtPage
 </template>
 
