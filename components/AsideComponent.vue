@@ -1,16 +1,16 @@
 <template lang="pug">
-aside.text-md.sm_text-lg
-	ul.products-list.mb-3
-		li.list-items.flex.w-48.font-normal.sm_flex-col.sm_space-y-3.sm_font-normal
-			NuxtLink(to="/MotorsPage").border-2.lg_border.border-black.px-3.rounded-lg.hover_shadow-md.py-2.mr-4.relative
+aside.text-md.sm_text-lg.-mt-4.sm_-mt-1
+	ul.products-list
+		li.list-items.flex.w-48.font-normal.sm_flex-col.sm_font-normal
+			NuxtLink(to="/MotorsPage").px-3.sm_pl-0.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
 				| Моторы
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Моторы").length }})
 				.line.hidden.w-4.h-1.lg_h-px.bg-sky-500.absolute.-right-4.top-5
-			NuxtLink(to="/PropellersPage").border-2.lg_border.border-black.px-3.rounded-lg.hover_shadow-md.py-2.mr-4.relative
+			NuxtLink(to="/PropellersPage").px-3.sm_pl-0.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
 				| Пропеллеры
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Пропеллеры").length }})
 				.line.hidden.w-4.h-1.lg_h-px.bg-sky-500.absolute.-right-4.top-5
-			NuxtLink(to="/StartersPage").border-2.lg_border.border-black.px-3.rounded-lg.hover_shadow-md.py-2.mr-4.relative
+			NuxtLink(to="/StartersPage").px-3.sm_pl-0.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
 				| Стартеры
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Стартеры").length }})
 				.line.hidden.w-4.h-1.lg_h-px.bg-sky-500.absolute.-right-4.top-5
