@@ -2,13 +2,13 @@
 aside.text-md.sm_text-lg.-mt-4.sm_-mt-1
 	ul.products-list
 		li.list-items.flex.w-48.font-normal.sm_flex-col.sm_font-normal
-			NuxtLink(to="/MotorsPage").px-3.sm_pl-0.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
+			NuxtLink(to="/MotorsPage").px-3.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
 				| Моторы
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Моторы").length }})
-			NuxtLink(to="/PropellersPage").px-3.sm_pl-0.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
+			NuxtLink(to="/PropellersPage").px-3.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
 				| Пропеллеры
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Пропеллеры").length }})
-			NuxtLink(to="/StartersPage").px-3.sm_pl-0.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
+			NuxtLink(to="/StartersPage").px-3.rounded-lg.hover_text-sky-600.py-3.sm_py-1.mr-4.relative
 				| Стартеры
 				.hidden.sm_inline-block &nbsp;({{ products.filter(item => item.category == "Стартеры").length }})
 </template>
