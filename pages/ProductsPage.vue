@@ -3,10 +3,10 @@
   head
     title SKSAVIA - Каталог
   .h-full.flex-row.sm_flex.p-4.pb-0
-    AsideComponent.sm_h-full.sticky.top-0.pb-px.bg-white
+    AsideComponent.sm_h-full.sticky.top-0.pb-px
     .grid.grid-cols-2.gap-4.h-fit.pb-4.sm_grid-cols-3.lg_grid-cols-5.xl_grid-cols-6
-      div(v-for="(product, index) in products" :key="'product '+index").rounded-lg.hover_shadow-lg
-        PreviewComponent(:product="product")
+      div(v-for="(product, index) in products" :key="'product '+index")
+        PreviewComponent(:product="product").border.border-transparent.hover_rounded-xl.hover_border-gray-500
 </template>
 
 <script setup>

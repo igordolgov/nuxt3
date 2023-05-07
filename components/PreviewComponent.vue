@@ -1,9 +1,9 @@
 <template lang="pug">
-.product-preview.h-full.bg-white
+.product-preview.h-full.bg-white.pb-2
   NuxtLink(:to="`products/${product.slug}`")
     img.object-contain.aspect-square.bg-stone-300.rounded-xl(:src="image" :alt="`${product.name}'s image`")
     .p-2.pb-0.text-sm
-      h5.font-semibold(class="min-h-[40px]") {{ product.name }}
+      h5.font-semibold.truncate(class="max-h-[20px]") {{ product.name }}
       p(v-if="product.quantity < 1").text-red-500.font-semibold Нет в наличии
       p(v-else) {{ product.price }} &#8381;
 </template>

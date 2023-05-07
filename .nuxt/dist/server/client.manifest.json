@@ -1,15 +1,744 @@
 {
-  "@vite/client": {
-    "isEntry": true,
-    "file": "@vite/client",
-    "css": [],
-    "module": true,
-    "resourceType": "script"
+  "PreviewComponent.css": {
+    "resourceType": "style",
+    "file": "PreviewComponent.82eb9b10.css",
+    "src": "PreviewComponent.css"
   },
-  "C:/Users/Olesia/code/nuxt3/node_modules/nuxt/dist/app/entry.js": {
+  "TheHeader.css": {
+    "resourceType": "style",
+    "file": "TheHeader.e3b082eb.css",
+    "src": "TheHeader.css"
+  },
+  "_PreviewComponent.cdcce773.js": {
     "resourceType": "script",
     "module": true,
+    "assets": [
+      "engine1-01.48a26889.jpg",
+      "engine1-02.bab91204.jpg",
+      "engine1-03.0a24a999.jpg",
+      "engine1-04.03e68e50.jpg",
+      "engine1-05.e0234926.jpg",
+      "engine1-06.7ad6cb6d.jpg",
+      "engine1-07.11b2fb45.jpg",
+      "engine2-01.6ec63972.jpg",
+      "engine2-02.90ae422b.jpg",
+      "engine2-03.073aec9d.jpg",
+      "engine2-04.447ea78f.jpg",
+      "engine2-05.2dcc390e.jpg",
+      "engine2-06.ee37dd85.jpg",
+      "engine3-01.d21b1a5e.jpg",
+      "engine3-02.ac954bd9.jpg",
+      "engine3-03.78c7872c.jpg",
+      "engine3-04.d546d44e.jpg",
+      "engine3-05.71d57f81.jpg",
+      "engine3-06.2f624dc0.jpg",
+      "engine3-07.20ad9bf9.jpg",
+      "engine3-08.7cd5d70d.jpg",
+      "engine3-09.972b6eec.jpg",
+      "engine3-10.564438e1.jpg",
+      "propeller1-01.62f2a13b.jpg",
+      "propeller2-01.c8359f11.jpg",
+      "propeller3-01.9eb59fda.jpg",
+      "propeller4-01.d0dc41ef.jpg",
+      "propeller5-01.4822a8eb.jpg",
+      "shoes.9da58c3d.jpg",
+      "starter1-01.31266f0d.jpg",
+      "starter2-01.c77d50b4.jpg",
+      "starter3-01.08aa1c15.jpg",
+      "starter4-01.4574346f.jpg",
+      "sunglasses.b275f230.jpg"
+    ],
+    "css": [
+      "PreviewComponent.82eb9b10.css"
+    ],
+    "file": "PreviewComponent.cdcce773.js",
+    "imports": [
+      "_nuxt-link.73c9bcbd.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js",
+      "_cart.107c38a5.js"
+    ]
+  },
+  "PreviewComponent.82eb9b10.css": {
+    "file": "PreviewComponent.82eb9b10.css",
+    "resourceType": "style"
+  },
+  "engine1-01.48a26889.jpg": {
+    "file": "engine1-01.48a26889.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine1-02.bab91204.jpg": {
+    "file": "engine1-02.bab91204.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine1-03.0a24a999.jpg": {
+    "file": "engine1-03.0a24a999.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine1-04.03e68e50.jpg": {
+    "file": "engine1-04.03e68e50.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine1-05.e0234926.jpg": {
+    "file": "engine1-05.e0234926.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine1-06.7ad6cb6d.jpg": {
+    "file": "engine1-06.7ad6cb6d.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine1-07.11b2fb45.jpg": {
+    "file": "engine1-07.11b2fb45.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine2-01.6ec63972.jpg": {
+    "file": "engine2-01.6ec63972.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine2-02.90ae422b.jpg": {
+    "file": "engine2-02.90ae422b.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine2-03.073aec9d.jpg": {
+    "file": "engine2-03.073aec9d.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine2-04.447ea78f.jpg": {
+    "file": "engine2-04.447ea78f.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine2-05.2dcc390e.jpg": {
+    "file": "engine2-05.2dcc390e.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine2-06.ee37dd85.jpg": {
+    "file": "engine2-06.ee37dd85.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-01.d21b1a5e.jpg": {
+    "file": "engine3-01.d21b1a5e.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-02.ac954bd9.jpg": {
+    "file": "engine3-02.ac954bd9.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-03.78c7872c.jpg": {
+    "file": "engine3-03.78c7872c.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-04.d546d44e.jpg": {
+    "file": "engine3-04.d546d44e.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-05.71d57f81.jpg": {
+    "file": "engine3-05.71d57f81.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-06.2f624dc0.jpg": {
+    "file": "engine3-06.2f624dc0.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-07.20ad9bf9.jpg": {
+    "file": "engine3-07.20ad9bf9.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-08.7cd5d70d.jpg": {
+    "file": "engine3-08.7cd5d70d.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-09.972b6eec.jpg": {
+    "file": "engine3-09.972b6eec.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "engine3-10.564438e1.jpg": {
+    "file": "engine3-10.564438e1.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "propeller1-01.62f2a13b.jpg": {
+    "file": "propeller1-01.62f2a13b.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "propeller2-01.c8359f11.jpg": {
+    "file": "propeller2-01.c8359f11.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "propeller3-01.9eb59fda.jpg": {
+    "file": "propeller3-01.9eb59fda.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "propeller4-01.d0dc41ef.jpg": {
+    "file": "propeller4-01.d0dc41ef.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "propeller5-01.4822a8eb.jpg": {
+    "file": "propeller5-01.4822a8eb.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "shoes.9da58c3d.jpg": {
+    "file": "shoes.9da58c3d.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "starter1-01.31266f0d.jpg": {
+    "file": "starter1-01.31266f0d.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "starter2-01.c77d50b4.jpg": {
+    "file": "starter2-01.c77d50b4.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "starter3-01.08aa1c15.jpg": {
+    "file": "starter3-01.08aa1c15.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "starter4-01.4574346f.jpg": {
+    "file": "starter4-01.4574346f.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "sunglasses.b275f230.jpg": {
+    "file": "sunglasses.b275f230.jpg",
+    "resourceType": "image",
+    "mimeType": "image/jpeg"
+  },
+  "_TheHeader.3ea0cb18.js": {
+    "resourceType": "script",
+    "module": true,
+    "css": [
+      "TheHeader.e3b082eb.css"
+    ],
+    "file": "TheHeader.3ea0cb18.js",
+    "imports": [
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js",
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "TheHeader.e3b082eb.css": {
+    "file": "TheHeader.e3b082eb.css",
+    "resourceType": "style"
+  },
+  "_cart.107c38a5.js": {
+    "resourceType": "script",
+    "module": true,
+    "file": "cart.107c38a5.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_nuxt-link.73c9bcbd.js": {
+    "resourceType": "script",
+    "module": true,
+    "file": "nuxt-link.73c9bcbd.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js"
+    ]
+  },
+  "_swiper-vue.c010a85a.js": {
+    "resourceType": "script",
+    "module": true,
+    "css": [
+      "swiper-vue.78ee92f5.css"
+    ],
+    "file": "swiper-vue.c010a85a.js"
+  },
+  "swiper-vue.78ee92f5.css": {
+    "file": "swiper-vue.78ee92f5.css",
+    "resourceType": "style"
+  },
+  "assets/images/products/engine1-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-01.48a26889.jpg",
+    "src": "assets/images/products/engine1-01.jpg"
+  },
+  "assets/images/products/engine1-02.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-02.bab91204.jpg",
+    "src": "assets/images/products/engine1-02.jpg"
+  },
+  "assets/images/products/engine1-03.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-03.0a24a999.jpg",
+    "src": "assets/images/products/engine1-03.jpg"
+  },
+  "assets/images/products/engine1-04.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-04.03e68e50.jpg",
+    "src": "assets/images/products/engine1-04.jpg"
+  },
+  "assets/images/products/engine1-05.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-05.e0234926.jpg",
+    "src": "assets/images/products/engine1-05.jpg"
+  },
+  "assets/images/products/engine1-06.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-06.7ad6cb6d.jpg",
+    "src": "assets/images/products/engine1-06.jpg"
+  },
+  "assets/images/products/engine1-07.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine1-07.11b2fb45.jpg",
+    "src": "assets/images/products/engine1-07.jpg"
+  },
+  "assets/images/products/engine2-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine2-01.6ec63972.jpg",
+    "src": "assets/images/products/engine2-01.jpg"
+  },
+  "assets/images/products/engine2-02.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine2-02.90ae422b.jpg",
+    "src": "assets/images/products/engine2-02.jpg"
+  },
+  "assets/images/products/engine2-03.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine2-03.073aec9d.jpg",
+    "src": "assets/images/products/engine2-03.jpg"
+  },
+  "assets/images/products/engine2-04.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine2-04.447ea78f.jpg",
+    "src": "assets/images/products/engine2-04.jpg"
+  },
+  "assets/images/products/engine2-05.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine2-05.2dcc390e.jpg",
+    "src": "assets/images/products/engine2-05.jpg"
+  },
+  "assets/images/products/engine2-06.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine2-06.ee37dd85.jpg",
+    "src": "assets/images/products/engine2-06.jpg"
+  },
+  "assets/images/products/engine3-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-01.d21b1a5e.jpg",
+    "src": "assets/images/products/engine3-01.jpg"
+  },
+  "assets/images/products/engine3-02.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-02.ac954bd9.jpg",
+    "src": "assets/images/products/engine3-02.jpg"
+  },
+  "assets/images/products/engine3-03.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-03.78c7872c.jpg",
+    "src": "assets/images/products/engine3-03.jpg"
+  },
+  "assets/images/products/engine3-04.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-04.d546d44e.jpg",
+    "src": "assets/images/products/engine3-04.jpg"
+  },
+  "assets/images/products/engine3-05.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-05.71d57f81.jpg",
+    "src": "assets/images/products/engine3-05.jpg"
+  },
+  "assets/images/products/engine3-06.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-06.2f624dc0.jpg",
+    "src": "assets/images/products/engine3-06.jpg"
+  },
+  "assets/images/products/engine3-07.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-07.20ad9bf9.jpg",
+    "src": "assets/images/products/engine3-07.jpg"
+  },
+  "assets/images/products/engine3-08.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-08.7cd5d70d.jpg",
+    "src": "assets/images/products/engine3-08.jpg"
+  },
+  "assets/images/products/engine3-09.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-09.972b6eec.jpg",
+    "src": "assets/images/products/engine3-09.jpg"
+  },
+  "assets/images/products/engine3-10.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "engine3-10.564438e1.jpg",
+    "src": "assets/images/products/engine3-10.jpg"
+  },
+  "assets/images/products/propeller1-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "propeller1-01.62f2a13b.jpg",
+    "src": "assets/images/products/propeller1-01.jpg"
+  },
+  "assets/images/products/propeller2-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "propeller2-01.c8359f11.jpg",
+    "src": "assets/images/products/propeller2-01.jpg"
+  },
+  "assets/images/products/propeller3-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "propeller3-01.9eb59fda.jpg",
+    "src": "assets/images/products/propeller3-01.jpg"
+  },
+  "assets/images/products/propeller4-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "propeller4-01.d0dc41ef.jpg",
+    "src": "assets/images/products/propeller4-01.jpg"
+  },
+  "assets/images/products/propeller5-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "propeller5-01.4822a8eb.jpg",
+    "src": "assets/images/products/propeller5-01.jpg"
+  },
+  "assets/images/products/shoes.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "shoes.9da58c3d.jpg",
+    "src": "assets/images/products/shoes.jpg"
+  },
+  "assets/images/products/starter1-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "starter1-01.31266f0d.jpg",
+    "src": "assets/images/products/starter1-01.jpg"
+  },
+  "assets/images/products/starter2-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "starter2-01.c77d50b4.jpg",
+    "src": "assets/images/products/starter2-01.jpg"
+  },
+  "assets/images/products/starter3-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "starter3-01.08aa1c15.jpg",
+    "src": "assets/images/products/starter3-01.jpg"
+  },
+  "assets/images/products/starter4-01.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "starter4-01.4574346f.jpg",
+    "src": "assets/images/products/starter4-01.jpg"
+  },
+  "assets/images/products/sunglasses.jpg": {
+    "resourceType": "image",
+    "mimeType": "image/jpeg",
+    "file": "sunglasses.b275f230.jpg",
+    "src": "assets/images/products/sunglasses.jpg"
+  },
+  "data/products.json": {
+    "resourceType": "script",
+    "module": true,
+    "file": "products.ea30ad6e.js",
+    "isDynamicEntry": true,
+    "src": "data/products.json"
+  },
+  "layouts/default.css": {
+    "resourceType": "style",
+    "file": "default.ded0fe72.css",
+    "src": "layouts/default.css"
+  },
+  "layouts/default.vue": {
+    "resourceType": "script",
+    "module": true,
+    "css": [],
+    "file": "default.af2f921c.js",
+    "imports": [
+      "_TheHeader.3ea0cb18.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js",
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "layouts/default.vue"
+  },
+  "default.ded0fe72.css": {
+    "file": "default.ded0fe72.css",
+    "resourceType": "style"
+  },
+  "layouts/products-layout.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "products-layout.2a080882.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_TheHeader.3ea0cb18.js",
+      "_swiper-vue.c010a85a.js",
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "layouts/products-layout.vue"
+  },
+  "node_modules/nuxt-icon/dist/runtime/IconCSS.css": {
+    "resourceType": "style",
+    "file": "IconCSS.05fd33c5.css",
+    "src": "node_modules/nuxt-icon/dist/runtime/IconCSS.css"
+  },
+  "node_modules/nuxt-icon/dist/runtime/IconCSS.vue": {
+    "resourceType": "script",
+    "module": true,
+    "css": [],
+    "file": "IconCSS.14e2811a.js",
+    "imports": [
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/nuxt-icon/dist/runtime/IconCSS.vue"
+  },
+  "IconCSS.05fd33c5.css": {
+    "file": "IconCSS.05fd33c5.css",
+    "resourceType": "style"
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "resourceType": "style",
+    "file": "entry.65eb18a4.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
+  "node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "css": [
+      "entry.65eb18a4.css"
+    ],
+    "dynamicImports": [
+      "layouts/default.vue",
+      "layouts/products-layout.vue",
+      "data/products.json",
+      "virtual:nuxt:C:/Users/IgorDolgov/shop/nuxt3/.nuxt/error-component.mjs"
+    ],
+    "file": "entry.04d8d3ac.js",
+    "imports": [
+      "_swiper-vue.c010a85a.js"
+    ],
     "isEntry": true,
-    "file": "C:/Users/Olesia/code/nuxt3/node_modules/nuxt/dist/app/entry.js"
+    "src": "node_modules/nuxt/dist/app/entry.js"
+  },
+  "entry.65eb18a4.css": {
+    "file": "entry.65eb18a4.css",
+    "resourceType": "style"
+  },
+  "pages/ContactsPage.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "ContactsPage.f01e0583.js",
+    "imports": [
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/ContactsPage.vue"
+  },
+  "pages/MotorsPage.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "MotorsPage.e3336bb1.js",
+    "imports": [
+      "_PreviewComponent.cdcce773.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js",
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/MotorsPage.vue"
+  },
+  "pages/ProductsPage.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "ProductsPage.f459f9c3.js",
+    "imports": [
+      "_PreviewComponent.cdcce773.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js",
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/ProductsPage.vue"
+  },
+  "pages/PropellersPage.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "PropellersPage.2b55584f.js",
+    "imports": [
+      "_PreviewComponent.cdcce773.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js",
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/PropellersPage.vue"
+  },
+  "pages/StartersPage.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "StartersPage.ddd3ab06.js",
+    "imports": [
+      "_PreviewComponent.cdcce773.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js",
+      "_nuxt-link.73c9bcbd.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/StartersPage.vue"
+  },
+  "pages/SuccessPage.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "SuccessPage.d95cbe4a.js",
+    "imports": [
+      "_nuxt-link.73c9bcbd.js",
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/SuccessPage.vue"
+  },
+  "pages/cart.css": {
+    "resourceType": "style",
+    "file": "cart.1ef642ab.css",
+    "src": "pages/cart.css"
+  },
+  "pages/cart.vue": {
+    "resourceType": "script",
+    "module": true,
+    "css": [],
+    "file": "cart.8fda9dac.js",
+    "imports": [
+      "_cart.107c38a5.js",
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/cart.vue"
+  },
+  "cart.1ef642ab.css": {
+    "file": "cart.1ef642ab.css",
+    "resourceType": "style"
+  },
+  "pages/index.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "index.8c92c4c2.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/index.vue"
+  },
+  "pages/products/[slug].css": {
+    "resourceType": "style",
+    "file": "_slug_.9ba74b44.css",
+    "src": "pages/products/[slug].css"
+  },
+  "pages/products/[slug].vue": {
+    "resourceType": "script",
+    "module": true,
+    "css": [],
+    "file": "_slug_.6fd47dca.js",
+    "imports": [
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_cart.107c38a5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/products/[slug].vue"
+  },
+  "_slug_.9ba74b44.css": {
+    "file": "_slug_.9ba74b44.css",
+    "resourceType": "style"
+  },
+  "pages/success.vue": {
+    "resourceType": "script",
+    "module": true,
+    "file": "success.d9c2e045.js",
+    "imports": [
+      "_nuxt-link.73c9bcbd.js",
+      "_swiper-vue.c010a85a.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/success.vue"
+  },
+  "swiper-vue.css": {
+    "resourceType": "style",
+    "file": "swiper-vue.78ee92f5.css",
+    "src": "swiper-vue.css"
+  },
+  "virtual:nuxt:C:/Users/IgorDolgov/shop/nuxt3/.nuxt/error-component.mjs": {
+    "resourceType": "script",
+    "module": true,
+    "file": "error-component.48b98087.js",
+    "imports": [
+      "_nuxt-link.73c9bcbd.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_swiper-vue.c010a85a.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "virtual:nuxt:C:/Users/IgorDolgov/shop/nuxt3/.nuxt/error-component.mjs"
   }
 }
