@@ -16,7 +16,7 @@ head
       p(v-if="product.quantity > 0") Кол-во: {{ product.quantity }} шт.
       p(v-else).text-red-500.font-semibold НЕТ В НАЛИЧИИ!
       p {{ product.condition }}
-      p.mb-4 {{ product.price }} &#8381;
+      p.mb-4 {{ Intl.NumberFormat("ru").format(product.price) }} &#8381;
       button(v-if="product.quantity > 0"
         @click.once="cartStore.addItem(product)" class="bg-[#2490C5]").px-4.py-4.text-white.rounded-lg.hover_bg-sky-600
         | Добавить в&nbsp;Корзину
