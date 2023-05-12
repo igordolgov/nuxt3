@@ -28,7 +28,7 @@
               td.text-gray-400(@click="cartStore.clearItem(item.name)")
                 svg.w-6.h-6.mx-auto.cursor-pointer.hover_text-red-600(fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg")
                   path(fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd")
-      .flex-col.bg-amber-200.sticky.z-10.inset-x-0.bottom-0.ml-auto.mr-2.mt-1.px-4.py-2.rounded-xl(class="w-[250px]")
+      .flex-col.bg-amber-200.sticky.z-10.inset-x-0.bottom-1.ml-auto.mt-1.mr-3.sm_mr-0.px-4.py-2.border.border-gray-500.rounded-lg(class="w-[250px]")
         .flex.justify-between
           .shipping Сумма доставки:
           span(class="pr-[2px]") {{Intl.NumberFormat("ru").format(cartStore.shipping)}} &#8381;
@@ -48,6 +48,6 @@ table td, th
 </style>
 
 <script setup>
-import { useCartStore } from '~~/stores/cart'
+import { useCartStore } from '~/stores/cart'
 const cartStore = useCartStore()
 </script>

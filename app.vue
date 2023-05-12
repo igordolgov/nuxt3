@@ -12,12 +12,22 @@
   //- Шаблон разметки (из папки layouts, по умолчанию default.vue):
   NuxtLayout
     //- Страницы из папки pages, вначале загружается страница index.vue:
-    NuxtPage.
+    NuxtPage
     //- Компонент из папки components (кнопка "Наверх страницы"):
   ScrollToTopComponent
 </template>
 
-<script lang="ts" setup>
+<style>
+#electron-status {
+  background: #fff;
+  color: #fff;
+  position: absolute;
+  font-size: 2rem;
+  font: bold;
+}
+</style>
+
+<script setup>
 import {useProductStore} from '~/stores/products'
 const productStore = useProductStore()
 productStore.fill()

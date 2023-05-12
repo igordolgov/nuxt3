@@ -5,7 +5,7 @@ head
 .main-page.text-center.bg-white
   h1.text-xl.sm_text-2xl.pt-2 Приветствуем Вас на&nbsp;нашем&nbsp;сайте!
   h2.mb-3.text-lg.italic Надеемся, что Вы найдёте то, что&nbsp;искали
-  img(src="https://dopobr.tularegion.ru/images/events/cover/cacb10296dcb9d7101b8b9b3d7e62459_big.jpg" class="max-h-[78vh]").mx-auto
+  img(src="~/assets/images/cacb10296dcb9d7101b8b9b3d7e62459_big.jpg" class="max-h-[78vh]").mx-auto
 </template>
 
 <script setup>

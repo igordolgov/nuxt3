@@ -2,8 +2,12 @@
 head
   title SKSAVIA - {{ product.name }}
 .product-slug
+  .breadcrumbs.px-3.py-2
+    NuxtLink(to="/MotorsPage").breadcrumb-item Каталог /&nbsp;
+    NuxtLink(to="javascript:history.back()").breadcrumb-item {{ product.category }} /&nbsp;
+    span.font-semibold {{ product.name }}
   .block.sm_flex.my-0.sm_pr-4
-    Swiper.mb-0.w-full(
+    Swiper.w-full.mb-0(
       :modules=" [SwiperAutoplay, SwiperNavigation, SwiperEffectFade, SwiperPagination, SwiperKeyboard, SwiperMousewheel] ",
       :slides-per-view=" 1 ", :effect="'fade'", :loop=" true ", navigation, mousewheel, :keyboard="{enabled: true,}",
       :pagination=" { clickable: true } ", :autoplay=" { delay: 8000, disableOnInteraction: true } ")
@@ -11,7 +15,6 @@ head
         v-for="item in product.images", :key="item.id")
         img(:src="item.src").object-contain.select-none.w-auto
     div.ml-4.mt-2
-      h2.text-xl.font-semibold {{ product.name }}
       p {{ product.description }}
       p(v-if="product.quantity > 0") Кол-во: {{ product.quantity }} шт.
       p(v-else).text-red-500.font-semibold НЕТ В НАЛИЧИИ!
@@ -23,9 +26,11 @@ head
 </template>
 
 <style lang="sass">
+.breadcrumb-item:hover
+  color: #2490C5
 .swiper-wrapper,
 .swiper
-  max-height: calc(100vh - 56px)
+  max-height: calc(100vh - 96px)
 .swiper-slide
   display: flex
   justify-content: center
@@ -54,6 +59,8 @@ const product = computed( () => {
     return product.slug === route.params.slug
   } )
 } )
+
+const category = product.category
 
 // const image = useAssets( `/public/img/${product.value.images}` )
 

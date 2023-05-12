@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	typescript: {
+		shim: false,
+	},
+	ssr: true,
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
@@ -8,15 +12,15 @@ export default defineNuxtConfig({
       '@pinia/nuxt',
       {
         autoImports: [
-          ['defineStore', 'definePiniaStore'],
-        ],
-      },
-    ],
+          ['defineStore', 'definePiniaStore']
+        ]
+      }
+    ]
   ],
   runtimeConfig: {
     public: {
       appUrl: 'http://localhost:3000',
-      stripePk: 'pk_test_xxxxxxxxxxxxxxxxxxxxxx',
-    },
-  },
+      stripePk: 'pk_test_xxxxxxxxxxxxxxxxxxxxxx'
+    }
+  }
 })
