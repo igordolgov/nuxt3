@@ -10,14 +10,14 @@
 
 <script setup>
 const props = defineProps( {
-    product: {
-        type: Object,
-        required: true
-    }
+  product: {
+    type: Object,
+    required: true
+  }
 } )
 const image = useAssets( `/assets/images/products/${props.product.image}` )
-import { useProductStore } from '~/stores/products'
-import { useCartStore } from '~~/stores/cart'
+import {useProductStore} from '~/stores/products'
+import {useCartStore} from '~~/stores/cart'
 const productStore = useProductStore()
 const products = productStore.products
 const cartStore = useCartStore()

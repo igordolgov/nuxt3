@@ -7,7 +7,7 @@ header.flex.items-center.text-white.text-lg.h-14(class="bg-[#2490C5]")
 					img(src="/img/logo.png" alt="SKSAVIA").mr-6.max-h-14
 				NuxtLink.nav_link.transition-colors.duration-700.ease-out(to="/")
 					|	Главная
-				NuxtLink.nav_link.transition-colors.duration-700.ease-out(to="/ProductsPage", class="sm:px-3")
+				NuxtLink.nav_link.transition-colors.duration-700.ease-out(to="/MotorsPage", class="sm:px-3")
 					|	Каталог
 				NuxtLink.nav_link.transition-colors.duration-700.ease-out.contacts(to="/ContactsPage")
 					|	Контакты
